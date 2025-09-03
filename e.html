@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Text Styling Reference</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background: #f0f0f0;
+    }
+
+    /* Text styling examples */
+    .color     { color: darkred; }
+    .size      { font-size: 24px; }
+    .align     { text-align: right; display: block; }
+    .uppercase { text-transform: uppercase; }
+    .italic    { font-style: italic; }
+    .bold      { font-weight: bold; }
+    .underline { text-decoration: underline; }
+    .strike    { text-decoration: line-through; }
+    .spacing   { letter-spacing: 5px; }
+    .lineh     { line-height: 2; }
+    .shadow    { text-shadow: 2px 2px 4px gray; }
+  </style>
+</head>
+<body>
+  <h2>CSS Text Styling Properties Demo</h2>
+  <table>
+    <tr><th>Property</th><th>Example</th></tr>
+    <tr><td>color</td><td class="color">This text is dark red</td></tr>
+    <tr><td>font-size</td><td class="size">This text is 24px</td></tr>
+    <tr><td>text-align</td><td><span class="align">This text is right aligned</span></td></tr>
+    <tr><td>text-transform</td><td class="uppercase">uppercase transformation</td></tr>
+    <tr><td>font-style</td><td class="italic">This text is italic</td></tr>
+    <tr><td>font-weight</td><td class="bold">This text is bold</td></tr>
+    <tr><td>text-decoration: underline</td><td class="underline">This text is underlined</td></tr>
+    <tr><td>text-decoration: line-through</td><td class="strike">This text is striked</td></tr>
+    <tr><td>letter-spacing</td><td class="spacing">Spaced Out</td></tr>
+    <tr><td>line-height</td><td class="lineh">This text<br>has extra<br>line spacing</td></tr>
+    <tr><td>text-shadow</td><td class="shadow">This text has a shadow</td></tr>
+  </table>
+</body>
+</html>
